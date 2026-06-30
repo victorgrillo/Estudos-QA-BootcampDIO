@@ -311,6 +311,231 @@ Modelos de Maturidade: O CMMI avalia a maturidade dos processos de desenvolvimen
 
 ## Conclusão: Os prompts foram pensados para um uso real no dia-a-dia, para verificar como e o quanto a ferramenta seria útil para iniciar meus estudos no tema escolhido. Apenas com os 3 primeiros prompts ainda não foram identificados problemas nas respostas geradas pela IA.
 
+# 📘 Miniguia de Estudos — Fundamentos de Testes de Software e Qualidade
+
+## 📌 1. Resumo Estruturado
+
+### 🎯 Objetivo dos Testes de Software
+
+Os testes de software têm como objetivo identificar defeitos, validar requisitos e garantir que a aplicação funcione corretamente antes de ser entregue ao usuário.
+
+Além de encontrar erros, os testes:
+
+- Aumentam a confiabilidade do sistema;
+- Reduzem custos de manutenção;
+- Melhoram a experiência do usuário;
+- Auxiliam na entrega de software com maior qualidade.
+
+---
+
+## 🧪 Tipos de Teste quanto ao Conhecimento do Código
+
+### ⚫ Teste de Caixa Preta (Black Box)
+
+O testador **não possui conhecimento da implementação interna** do sistema. Os testes são elaborados com base nos requisitos funcionais, analisando apenas entradas, saídas e o comportamento esperado.
+
+#### Características
+
+- Não exige acesso ao código-fonte;
+- Valida funcionalidades;
+- Simula a experiência do usuário.
+
+#### Exemplo
+
+> Ao inserir um CPF válido em um formulário de cadastro, o sistema deve aceitar o registro.
+
+---
+
+### ⚪ Teste de Caixa Branca (White Box)
+
+O testador possui acesso ao código-fonte e avalia sua estrutura interna, lógica, fluxos de execução e cobertura de código.
+
+#### Características
+
+- Analisa algoritmos e estruturas internas;
+- Verifica condições, loops e caminhos de execução;
+- Geralmente realizado por desenvolvedores.
+
+#### Exemplo
+
+> Garantir que todos os blocos condicionais de um método sejam executados durante os testes.
+
+---
+
+### 🩶 Teste de Caixa Cinza (Grey Box)
+
+Combina características dos testes de Caixa Preta e Caixa Branca. O testador possui conhecimento parcial da arquitetura da aplicação, como banco de dados, APIs ou serviços internos.
+
+#### Características
+
+- Mistura a visão do usuário com conhecimento técnico;
+- Muito utilizado em testes de integração;
+- Permite criar cenários mais completos.
+
+---
+
+## ⚙️ Testes Funcionais
+
+Verificam se o software executa corretamente as funcionalidades especificadas nos requisitos.
+
+### Exemplos
+
+- Login
+- Cadastro de usuários
+- Emissão de relatórios
+- Cálculo de valores
+
+---
+
+## 🚀 Testes Não Funcionais
+
+Avaliam atributos de qualidade do sistema, sem focar diretamente nas funcionalidades.
+
+### Exemplos
+
+- Desempenho
+- Segurança
+- Escalabilidade
+- Usabilidade
+- Disponibilidade
+- Confiabilidade
+
+---
+
+## 👨‍💻 Testes Manuais
+
+São executados por um testador humano, que interage diretamente com a aplicação.
+
+### ✅ Vantagens
+
+- Excelente para testes exploratórios;
+- Permite identificar problemas de usabilidade;
+- Não exige automação.
+
+### ❌ Desvantagens
+
+- Mais lentos;
+- Suscetíveis a erros humanos;
+- Pouco escaláveis.
+
+---
+
+## 🤖 Testes Automatizados
+
+Utilizam scripts e ferramentas para executar casos de teste automaticamente.
+
+### ✅ Vantagens
+
+- Rapidez;
+- Repetibilidade;
+- Integração com CI/CD;
+- Ideais para testes de regressão.
+
+### ❌ Desvantagens
+
+- Exigem manutenção;
+- Possuem maior custo inicial.
+
+---
+
+# 📊 Níveis de Teste
+
+## 🔹 Teste Unitário
+
+Verifica funções, métodos ou classes individualmente.
+
+**Objetivo:** validar pequenas unidades do código.
+
+---
+
+## 🔹 Teste de Integração
+
+Valida a comunicação entre módulos, APIs, bancos de dados e serviços externos.
+
+**Objetivo:** garantir que os componentes trabalhem corretamente em conjunto.
+
+---
+
+## 🔹 Teste de Sistema
+
+Avalia o funcionamento da aplicação completa e integrada.
+
+**Objetivo:** verificar se todo o sistema atende aos requisitos especificados.
+
+---
+
+## 🔹 Teste de Aceitação (UAT)
+
+Executado pelos usuários ou clientes para validar se o software atende às necessidades do negócio.
+
+**Objetivo:** confirmar que o produto está pronto para produção.
+
+---
+
+# ⚖️ QA × QC
+
+## ✅ Quality Assurance (QA)
+
+QA é uma abordagem **preventiva**, focada no processo de desenvolvimento.
+
+Seu objetivo é evitar que defeitos sejam introduzidos durante a construção do software.
+
+### Principais responsabilidades
+
+- Definir processos;
+- Criar padrões de qualidade;
+- Melhorar fluxos de trabalho;
+- Promover boas práticas.
+
+---
+
+## ✅ Quality Control (QC)
+
+QC é uma abordagem **corretiva**, focada no produto final.
+
+Seu objetivo é identificar defeitos antes da entrega do software.
+
+### Principais responsabilidades
+
+- Executar testes;
+- Registrar bugs;
+- Validar correções;
+- Garantir que o produto atenda aos requisitos.
+
+---
+
+# 📖 Glossário
+
+| Conceito | Definição |
+|-----------|-----------|
+| **QA** | Conjunto de práticas voltadas para garantir a qualidade do processo de desenvolvimento. |
+| **QC** | Atividades voltadas para validar a qualidade do produto final. |
+| **Caso de Teste** | Conjunto de passos utilizados para verificar uma funcionalidade. |
+| **Bug** | Defeito encontrado no software. |
+| **Requisito Funcional** | Define o que o sistema deve fazer. |
+| **Requisito Não Funcional** | Define como o sistema deve se comportar. |
+| **Caixa Preta** | Teste baseado apenas nas entradas e saídas. |
+| **Caixa Branca** | Teste baseado na estrutura interna do código. |
+| **Caixa Cinza** | Combinação entre Caixa Preta e Caixa Branca. |
+| **Teste Unitário** | Validação de pequenas unidades do código. |
+| **Teste de Integração** | Validação da comunicação entre componentes. |
+| **Teste de Sistema** | Teste do software completo. |
+| **Teste de Aceitação (UAT)** | Validação realizada pelo cliente ou usuário final. |
+| **Automação de Testes** | Execução automática de casos de teste utilizando ferramentas específicas. |
+| **Cobertura de Código** | Métrica que indica quanto do código foi executado durante os testes. |
+
+## Prompts Reutilizaveis
+
+Organize esse tema em forma de mapa mental
+
+Crie 10 exercícios sobre os principais fundamentos do tema
+
+Resuma o tópico X sobre o tema
+
+Quais perguntas técnicas costumam cair em entrevistas?
+
+
+
 
 
 
