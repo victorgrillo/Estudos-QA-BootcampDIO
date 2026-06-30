@@ -1,4 +1,14 @@
-# Caderno Temático - QA - Quality Assurance
+### Caderno Temático - QA - Quality Assurance
+
+## 📑 Índice
+
+- [🎯 Objetivo](#-objetivo)
+- [📚 Fontes Listadas](#-fontes-listadas)
+- [🤖 Engenharia de Prompts](#-prompts)
+- [📘 Miniguia de Estudos](#-miniguia-de-estudos--fundamentos-de-testes-de-software-e-qualidade)
+- [📖 Glossário](#-glossário)
+- [🔁 Prompts Reutilizáveis](#prompts-reutilizaveis)
+- [📝 Conclusão](#-conclusão)
 
 ## Objetivo: 
 
@@ -26,9 +36,9 @@ Obs: Listei apenas 5 fontes, porém utilizei mais já que farei uso do caderno p
 
 ## Prompts
 
-Prompt 1 - Como estudante de ADS, sem conhecimento prévio em QA e com básico conhecimento em Python, Java, JS, React. Com grande interesse em trabalhar com Back-end, QA e IA, crie um guia de estudos por tópicos e subtópicos para que eu possa seguir
+# Prompt 1 - Como estudante de ADS, sem conhecimento prévio em QA e com básico conhecimento em Python, Java, JS, React. Com grande interesse em trabalhar com Back-end, QA e IA, crie um guia de estudos por tópicos e subtópicos para que eu possa seguir
 
-Resposta NotebookLM 1 - Com base nos seus conhecimentos em ADS e seu interesse em Back-end, QA e IA, aqui está um guia de estudos estruturado para consolidar sua transição para a área de qualidade de software de forma estratégica:
+# Resposta NotebookLM 1 - Com base nos seus conhecimentos em ADS e seu interesse em Back-end, QA e IA, aqui está um guia de estudos estruturado para consolidar sua transição para a área de qualidade de software de forma estratégica:
 1. Fundamentos de Quality Assurance (QA)
 Antes de automatizar, você deve entender a teoria e os processos que regem a qualidade.
 Conceitos Iniciais:
@@ -114,9 +124,9 @@ Portfólio: Documente seus scripts de automação e projetos de teste no GitHub
 Especialização: Considere cursos focados em Testes Ágeis para alinhar técnica com as necessidades do mercado moderno
 .
 
-Prompt 2 - Liste os tipos de testes, diferenças entre eles e pontos negativos e positivos de cada um deles.
+# Prompt 2 - Liste os tipos de testes, diferenças entre eles e pontos negativos e positivos de cada um deles.
 
-Resposta NotebookLM 2 - Os testes de software são classificados de diversas formas, dependendo do objetivo, do nível de visibilidade do código ou da fase do desenvolvimento. De acordo com as fontes, aqui estão os principais tipos, suas diferenças e os respectivos pontos positivos e negativos:
+# Resposta NotebookLM 2 - Os testes de software são classificados de diversas formas, dependendo do objetivo, do nível de visibilidade do código ou da fase do desenvolvimento. De acordo com as fontes, aqui estão os principais tipos, suas diferenças e os respectivos pontos positivos e negativos:
 1. Classificação por Visibilidade (Técnicas de Caixa)
 Esta categoria define o quanto o testador conhece da estrutura interna (código) do sistema.
 Teste de Caixa Preta (Black Box): Foca apenas nas entradas e saídas, validando os requisitos funcionais sem conhecimento do código interno
@@ -191,9 +201,9 @@ Prós: Extremamente rápido para testes de regressão, permite maior cobertura e
 Contras: Exige conhecimento em programação, tem alto custo inicial e não substitui o julgamento humano em usabilidade
 .
 
-Prompt 3 - Qual a diferença de QA e QC, não apenas na teoria mas também na prática do dia-a-dia da profissão?
+# Prompt 3 - Qual a diferença de QA e QC, não apenas na teoria mas também na prática do dia-a-dia da profissão?
 
-Resposta NotebookLM 3 - A diferença entre Quality Assurance (QA) e Quality Control (QC) reside fundamentalmente no foco da atuação: enquanto um se preocupa em prevenir que os problemas ocorram através da melhoria de processos, o outro foca em detectar falhas no produto final antes que ele chegue ao cliente
+# Resposta NotebookLM 3 - A diferença entre Quality Assurance (QA) e Quality Control (QC) reside fundamentalmente no foco da atuação: enquanto um se preocupa em prevenir que os problemas ocorram através da melhoria de processos, o outro foca em detectar falhas no produto final antes que ele chegue ao cliente
 .
 Aqui estão as distinções detalhadas, separando a teoria da realidade prática do cotidiano profissional:
 1. Diferenças Teóricas
@@ -255,9 +265,9 @@ Shift-Left: A tendência é trazer o QA para o início do projeto. Se o QA atua 
 Qualidade é de todos: Em metodologias ágeis, embora o QA lidere o processo, toda a equipe compartilha a responsabilidade pela qualidade do que é entregue
 .
 
-Prompt 4 - Liste os principais conceitos de QA
+# Prompt 4 - Liste os principais conceitos de QA
 
-Resposta NotebookLM 4 - Os principais conceitos de Quality Assurance (QA) abrangem desde a fundamentação teórica sobre o que é qualidade até a aplicação técnica de processos e ferramentas para garantir que um software atenda aos requisitos esperados.
+# Resposta NotebookLM 4 - Os principais conceitos de Quality Assurance (QA) abrangem desde a fundamentação teórica sobre o que é qualidade até a aplicação técnica de processos e ferramentas para garantir que um software atenda aos requisitos esperados.
 Com base nos documentos fornecidos, os conceitos fundamentais são:
 1. Definição de QA e Diferença de QC
 Quality Assurance (QA): Refere-se a práticas e técnicas orientadas ao processo, usadas para monitorar e melhorar a qualidade do software durante todo o seu ciclo de vida, desde o planejamento até a manutenção
@@ -308,10 +318,7 @@ Modelos de Maturidade: O CMMI avalia a maturidade dos processos de desenvolvimen
 , enquanto o TMM (Test Maturity Model) foca especificamente na maturidade dos processos de teste
 .
 
-
-## Conclusão: Os prompts foram pensados para um uso real no dia-a-dia, para verificar como e o quanto a ferramenta seria útil para iniciar meus estudos no tema escolhido. Apenas com os 3 primeiros prompts ainda não foram identificados problemas nas respostas geradas pela IA.
-
-# 📘 Miniguia de Estudos — Fundamentos de Testes de Software e Qualidade
+## 📘 Miniguia de Estudos — Fundamentos de Testes de Software e Qualidade
 
 ## 📌 1. Resumo Estruturado
 
@@ -495,7 +502,7 @@ QC é uma abordagem **corretiva**, focada no produto final.
 
 Seu objetivo é identificar defeitos antes da entrega do software.
 
-### Principais responsabilidades
+# Principais responsabilidades
 
 - Executar testes;
 - Registrar bugs;
@@ -504,7 +511,7 @@ Seu objetivo é identificar defeitos antes da entrega do software.
 
 ---
 
-# 📖 Glossário
+## 📖 Glossário
 
 | Conceito | Definição |
 |-----------|-----------|
@@ -533,6 +540,13 @@ Crie 10 exercícios sobre os principais fundamentos do tema
 Resuma o tópico X sobre o tema
 
 Quais perguntas técnicas costumam cair em entrevistas?
+
+
+## ✅ Conclusão: Os prompts foram elaborados para simular dúvidas reais de um estudante iniciando na área de QA. Durante a utilização do NotebookLM foi possível obter respostas bem estruturadas e coerentes com as fontes fornecidas.
+
+A principal vantagem observada foi a capacidade da ferramenta de organizar o conteúdo, explicar conceitos de diferentes maneiras e auxiliar na criação de um plano de estudos.
+
+Como ponto de atenção, as respostas devem sempre ser validadas e complementadas com documentação oficial e outras referências confiáveis, evitando depender exclusivamente da IA.
 
 
 
